@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-marm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An awesome module being created",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,31 @@
     "url": "https://github.com/akileez/eslint-config-marm/issues"
   },
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "style checker",
+    "code style",
+    "code checker",
+    "code linter",
+    "style linter",
+    "simple",
+    "policy",
+    "style",
+    "code",
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "jshint",
+    "jscs",
+    "hint",
+    "enforce",
+    "check",
+    "verify",
+    "quality",
+    "checker",
+    "code standards",
+    "standard"
+    "eslintconfig"
+  ],
   "dependencies": {
   },
   "devDependencies": {
