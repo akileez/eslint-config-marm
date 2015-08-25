@@ -6,24 +6,14 @@
 
 ## Installation
 ```bash
-$ npm install akileez\eslint-config-marm
+$ npm install eslint-config-marm
 ```
 
 ## Usage
-```js
 
-```
+Read up on how to use [sharable configs](http://eslint.org/docs/developer-guide/shareable-configs) at the eslint website.
 
-## API
-```js
-
-```
-
-## Why?
-
-
-## See Also
--
+For more details see [eslint-config-standard](https://github.com/feross/eslint-config-standard)
 
 ## License
 [ISC](https://github.com/akileez/eslint-config-marm/blob/master/LICENSE)
