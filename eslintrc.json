@@ -98,6 +98,7 @@
     "no-unused-vars": [2, { "vars": "all", "args": "none" }],
     "no-useless-call": 2,
     "no-with": 2,
+    "object-curly-spacing": [2, "always"],
     "one-var": [2, { "initialized": "never" }],
     "operator-linebreak": [2, "after"],
     "quotes": [2, "single", "avoid-escape"],
@@ -114,6 +115,10 @@
     "use-isnan": 2,
     "valid-typeof": 2,
     "wrap-iife": [2, "any"],
-    "yoda": [2, "never"]
+    "yoda": [2, "never"],
+
+    "object-curly-spacing": [2, "never"],
+    "array-bracket-spacing": [2, "never"],
+    "computed-property-spacing": [2, "never"]
   }
 }
