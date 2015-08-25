@@ -5,8 +5,4 @@
  * Licensed under the ISC license.
  */
 
-'use strict'
-
-module.exports = function () {
-  // do stuff
-}
+module.exports = require('./eslintrc.json')
