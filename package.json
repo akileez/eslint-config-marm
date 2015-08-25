@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-marm",
+  "version": "0.1.0",
+  "description": "An awesome module being created",
+  "main": "index.js",
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akileez/eslint-config-marm.git"
+  },
+  "author": {
+    "name": "Keith Williams",
+    "email": "git@keeda.net",
+    "url": "https://github.com/akileez/eslint-config-marm"
+  },
+  "homepage": "https://github.com/akileez/eslint-config-marm",
+  "bugs": {
+    "url": "https://github.com/akileez/eslint-config-marm/issues"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
