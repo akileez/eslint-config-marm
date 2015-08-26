@@ -7,16 +7,57 @@
 >school·marm `/ˈsko͞olˌmä(r)m/`   
    > a schoolmistress (typically used with reference to a woman regarded as prim, strict, and brisk in manner).
 
+## Rules
+Check [feross/standard](https://github.com/feross/standard) for the rules.
+
+marm diverges from Standard in the following ways:   
+
+- indent 2 spaces but only warn if in violation
+- key-spacing however you wish
+- allow multiple spaces
+- operator-line-break set to beginning of line
+- array-bracket-spacing -- never
+- computed-property-spacing -- never
+- object-curly-spacing -- never
+
+
+## No Semicolons
+Excerpt from ["An Open Letter to JavaScript Leaders Regarding Semicolons"](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)
+In general, `\n` ends a statement unless:
+
+1. The statment has an unclosed paren, array literal, or object literal or ends in some other way that is not a valid way to end a statement. (For instance, ending with `.` or `,`)
+2. The line is `--` or `++` (in which case it will decrement/increment the next token)
+3. It is a `for()`, `while()`, `do`, `if()` or `else`, and there is no `{`
+4. The next line starts with `[`, `(`, `+`, `*`, `/`, `-`, `,`, `.`, or some other binary operator that can only be found between two tokens in a single expression.
+
+ 
+
 ## Installation
 ```bash
 $ npm install eslint-config-marm
 ```
 
 ## Usage
+Shareable configs are designed to work with the `extends` feature of `.eslintrc` files. Read up on how to use [sharable configs](http://eslint.org/docs/developer-guide/shareable-configs) at the eslint website.
 
-Read up on how to use [sharable configs](http://eslint.org/docs/developer-guide/shareable-configs) at the eslint website.
+To use the Schoolmarm Standard Style shareable config, first run this:
 
-For more details see [eslint-config-standard](https://github.com/feross/eslint-config-standard)
+```bash
+npm install eslint-config-marm
+```
+
+Then, add this to your .eslintrc file:
+
+```
+{
+  "extends": "marm"
+}
+```
+
+*Note: `eslint-config-` prefix is omitted since it is automatically assumed by ESLint.*
+
+You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
+
 
 ## License
 [ISC](https://github.com/akileez/eslint-config-marm/blob/master/LICENSE)
