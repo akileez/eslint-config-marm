@@ -4,6 +4,9 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Downloads][downloads-image]][downloads-url]
 
+>school·marm `/ˈsko͞olˌmä(r)m/`   
+   > a schoolmistress (typically used with reference to a woman regarded as prim, strict, and brisk in manner).
+
 ## Installation
 ```bash
 $ npm install eslint-config-marm
