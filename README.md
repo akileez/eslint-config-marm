@@ -75,7 +75,7 @@ Then, add this to your .eslintrc file:
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
 
 ### About No Semicolons
-At first, I was appalled, then read ["An Open Letter to JavaScript Leaders Regarding Semicolons"](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding) and formed a new opinion.
+At first, I was appalled, then read ["An Open Letter to JavaScript Leaders Regarding Semicolons"](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding) and formed a new opinion. tldr version:
 
 In general, `\n` ends a statement unless:
 
