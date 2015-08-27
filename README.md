@@ -20,18 +20,6 @@ marm diverges from Standard in the following ways:
 - computed-property-spacing -- never
 - object-curly-spacing -- never
 
-
-## No Semicolons
-Excerpt from ["An Open Letter to JavaScript Leaders Regarding Semicolons"](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding)
-In general, `\n` ends a statement unless:
-
-1. The statment has an unclosed paren, array literal, or object literal or ends in some other way that is not a valid way to end a statement. (For instance, ending with `.` or `,`)
-2. The line is `--` or `++` (in which case it will decrement/increment the next token)
-3. It is a `for()`, `while()`, `do`, `if()` or `else`, and there is no `{`
-4. The next line starts with `[`, `(`, `+`, `*`, `/`, `-`, `,`, `.`, or some other binary operator that can only be found between two tokens in a single expression.
-
- 
-
 ## Installation
 ```bash
 $ npm install eslint-config-marm
@@ -57,6 +45,17 @@ Then, add this to your .eslintrc file:
 *Note: `eslint-config-` prefix is omitted since it is automatically assumed by ESLint.*
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
+
+### About No Semicolons
+At first, I was appalled, then read ["An Open Letter to JavaScript Leaders Regarding Semicolons"](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding) and formed a new opinion.
+
+In general, `\n` ends a statement unless:
+
+1. The statment has an unclosed paren, array literal, or object literal or ends in some other way that is not a valid way to end a statement. (For instance, ending with `.` or `,`)
+2. The line is `--` or `++` (in which case it will decrement/increment the next token)
+3. It is a `for()`, `while()`, `do`, `if()` or `else`, and there is no `{`
+4. The next line starts with `[`, `(`, `+`, `*`, `/`, `-`, `,`, `.`, or some other binary operator that can only be found between two tokens in a single expression.
+
 
 
 ## License
