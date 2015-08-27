@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-marm",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Schoolmarm for code lint and style",
   "main": "index.js",
   "scripts": {
@@ -53,7 +53,7 @@
   "files": [
     "LICENSE",
     "index.js",
-    "eslintrc.json",
+    "rc",
     "README.md"
   ]
 }
