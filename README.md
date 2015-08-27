@@ -13,9 +13,36 @@ Check [feross/standard](https://github.com/feross/standard) for the rules.
 marm diverges from Standard in the following ways:   
 
 - indent 2 spaces but only warn if in violation
-- key-spacing however you wish
-- allow multiple spaces
 - operator-line-break set to beginning of line
+- allow multiple spaces
+
+```javscript
+// doing this ... above three rules
+  closeAria = createElement('span', {'aria-hidden': true}, '&times;')
+            + createElement('span', {class: 'sr-only'}, 'Close')
+  close     = createElement('button', {
+                class: 'close',
+                type: 'button',
+                'data-dismiss': dismiss
+            }, closeAria)
+```
+
+- key-spacing however you wish
+
+```javscript
+// doing this ...
+    paths: {
+      img   : 'assets/img',
+      pdf   : 'assets/pdf',
+      ico   : 'assets/ico',
+      fonts : 'assets/fonts',
+      js    : 'assets/js',
+      css   : 'assets/css'
+    }
+```
+
+The following three rules are optional with the Standard-plugin (they go either way, I choose `never`)
+
 - array-bracket-spacing -- never
 - computed-property-spacing -- never
 - object-curly-spacing -- never
