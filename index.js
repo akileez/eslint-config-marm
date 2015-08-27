@@ -5,4 +5,4 @@
  * Licensed under the ISC license.
  */
 
-module.exports = require('./rc/.eslintrc')
+module.exports = require('./rc/eslintrc.json')
