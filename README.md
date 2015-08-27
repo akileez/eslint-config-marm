@@ -31,7 +31,8 @@ Shareable configs are designed to work with the `extends` feature of `.eslintrc`
 To use the Schoolmarm Standard Style shareable config, first run this:
 
 ```bash
-npm install eslint-config-marm
+// global install if using eslint from command-line
+npm install eslint-config-marm -g
 ```
 
 Then, add this to your .eslintrc file:
