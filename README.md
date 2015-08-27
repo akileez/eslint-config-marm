@@ -16,7 +16,7 @@ marm diverges from Standard in the following ways:
 - operator-line-break set to beginning of line
 - allow multiple spaces
 
-```javscript
+```js
 // doing this ... above three rules
   closeAria = createElement('span', {'aria-hidden': true}, '&times;')
             + createElement('span', {class: 'sr-only'}, 'Close')
@@ -29,7 +29,7 @@ marm diverges from Standard in the following ways:
 
 - key-spacing however you wish
 
-```javscript
+```js
 // doing this ...
     paths: {
       img   : 'assets/img',
