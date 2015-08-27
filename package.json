@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-marm",
-  "version": "0.1.4",
-  "description": "An awesome module being created",
+  "version": "0.1.5",
+  "description": "Schoolmarm for code linting and style",
   "main": "index.js",
   "scripts": {
   },
