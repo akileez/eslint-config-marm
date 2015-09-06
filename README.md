@@ -41,6 +41,25 @@ marm diverges from Standard in the following ways:
     }
 ```
 
+- curly warn only for multi or nest (This rule will most likely be turned off).
+
+```js
+// I have no standard style when it comes to curly braces on if statements. Though I tend
+// to always use curly braces for loops.
+if (typeof a === 'object') return something
+
+if (!a) {
+  doThis(arg1, arg2)
+} else {
+  doThat(arg1, arg2)
+}
+
+if (c && d || e)
+  return theOtherThing
+else 
+  console.log('showMe') 
+```
+
 The following three rules are optional with the Standard-plugin (they go either way, I choose `never`)
 
 - array-bracket-spacing -- never
@@ -72,7 +91,7 @@ Then, add this to your .eslintrc file:
 
 *Note: `eslint-config-` prefix is omitted since it is automatically assumed by ESLint.*
 
-You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
+You can override settings from the shareable config by adding them directly into your `.eslintrc` file, like the controversial __no__ semicolons listed below.
 
 ### About No Semicolons
 At first, I was appalled, then read ["An Open Letter to JavaScript Leaders Regarding Semicolons"](http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding) and formed a new opinion. tldr version:
