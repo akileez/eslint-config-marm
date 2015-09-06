@@ -21,6 +21,7 @@
     // Standard Plugin Options -- using eslint here.
     "array-bracket-spacing": [2, "never"],
     "arrow-spacing": [2, { "before": true, "after": true }],
+    "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "comma-dangle": [2, "never"],
     "comma-spacing": [2, { "before": false, "after": true }],
@@ -50,6 +51,7 @@
     "no-debugger": 2,
     "no-delete-var": 2,
     "no-dupe-args": 2,
+    "no-dupe-class-members": 2,
     "no-dupe-keys": 2,
     "no-duplicate-case": 2,
     "no-empty-character-class": 2,
@@ -109,8 +111,9 @@
     // Standard goes either way with plugin but use `always` in base config
     "object-curly-spacing": [2, "never"],
     "one-var": [2, { "initialized": "never" }],
-    // Standard uses operator-linebreak `after`
+    // Standard uses operator-linebreak `after`but overrides `?` and `:` before
     "operator-linebreak": [2, "before"],
+    "padded-blocks": [2, "never"],
     "quotes": [2, "single", "avoid-escape"],
     "radix": 2,
     "semi": [2, "never"],
