@@ -5,9 +5,12 @@ var assert    = require('')
 
 // Quick build template for removing comments from eslintrc.json
 
-readFile('eslintrc.json', function (err, res) {
+var src  = 'eslintrc.json'
+var dest = 'rc/eslintrc.json'
+
+readFile(src, function (err, res) {
   assert.ifError(err)
-  writeFile('rc/eslintrc.json', stripJSON(res), function (err) {
+  writeFile(dest, stripJSON(res), function (err) {
     assert.ifError(err)
     console.log('Strip comments complete')
   })
