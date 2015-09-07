@@ -1,7 +1,7 @@
-var readFile  = require('')
-var writeFile = require('')
-var stripJSON = require('')
-var assert    = require('')
+var readFile  = require('toolz/src/file/readFile')
+var writeFile = require('toolz/src/file/writeFile')
+var stripJSON = require('toolz/src/file/stripJSON')
+var assert    = require('assert')
 
 // Quick build template for removing comments from eslintrc.json
 
