@@ -7,6 +7,9 @@
 >school·marm `/ˈsko͞olˌmä(r)m/`   
    > a schoolmistress (typically used with reference to a woman regarded as prim, strict, and brisk in manner).
 
+Do you remember when you were a child and had to stand in line. Well, schoolmarm is here to enforce alignment 
+but only when you want to.
+
 ## Rules
 Check [feross/standard](https://github.com/feross/standard) for the rules.
 
@@ -65,6 +68,22 @@ The following three rules are optional with the Standard-plugin (they go either 
 - array-bracket-spacing -- never
 - computed-property-spacing -- never
 - object-curly-spacing -- never
+
+Recent change to the ruleset:
+
+- space-before-keywords -- set to warning. This conflicts with the above (array-bracket-spacing -- never) in certain circumstances
+
+```js
+asyncReduce(fns, args, function (resultObject, v, k, done) {
+  v.apply(that, resultObject.concat([function () { // <-- confusion here.
+    var err = arguments[0]
+    var nextargs = _baseSlice(arguments, 1)
+    done(err, nextargs)
+  }]))
+}, function (err, res) {
+  cb.apply(that, [err].concat(res))
+})
+```
 
 ## Installation
 ```bash
