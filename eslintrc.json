@@ -121,7 +121,8 @@
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "always"],
-    "space-before-keywords": [2, "always"],
+    // Using a warning here. conflicts with rule "array-bracket-spacing"
+    "space-before-keywords": [1, "always"],
     "space-in-parens": [2, "never"],
     "space-infix-ops": 2,
     "space-return-throw-case": 2,
