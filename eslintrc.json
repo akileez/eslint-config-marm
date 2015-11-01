@@ -29,8 +29,8 @@
     // Standard Plugin Options -- using eslint here.
     "computed-property-spacing": [2, "never"],
     "constructor-super": 2,
-    // Standard uses multi-line
-    "curly": [1, "multi-or-nest"],
+    // Standard uses multi-line. Turning off.
+    "curly": [0, "multi-line"],
     "dot-location": [2, "property"],
     "eol-last": 2,
     "eqeqeq": [2, "allow-null"],
@@ -121,8 +121,8 @@
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "always"],
-    // Using a warning here. conflicts with rule "array-bracket-spacing"
-    "space-before-keywords": [1, "always"],
+    // Turning off. conflicts with rule "array-bracket-spacing"
+    "space-before-keywords": [0, "always"],
     "space-in-parens": [2, "never"],
     "space-infix-ops": 2,
     "space-return-throw-case": 2,
