@@ -44,7 +44,7 @@ marm diverges from Standard in the following ways:
     }
 ```
 
-- curly warn only for multi or nest (This rule will most likely be turned off).
+- curly has been turned off!
 
 ```js
 // I have no standard style when it comes to curly braces on if statements. Though I tend
@@ -68,10 +68,7 @@ The following three rules are optional with the Standard-plugin (they go either 
 - array-bracket-spacing -- never
 - computed-property-spacing -- never
 - object-curly-spacing -- never
-
-Recent change to the ruleset:
-
-- space-before-keywords -- set to warning. This conflicts with the above (array-bracket-spacing -- never) in certain circumstances
+- space-before-keywords -- turned off. This conflicts with the above (array-bracket-spacing -- never) in certain circumstances
 
 ```js
 asyncReduce(fns, args, function (resultObject, v, k, done) {
