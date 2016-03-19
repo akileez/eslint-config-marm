@@ -53,7 +53,7 @@
   "files": [
     "LICENSE",
     "index.js",
-    "rc",
+    "rules",
     "README.md"
   ]
 }
