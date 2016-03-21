@@ -10,6 +10,8 @@
 Do you remember when you were a child and had to stand in line. Well, schoolmarm is here to enforce alignment 
 but only when you want to.
 
+**Note:** version 0.2 and greater to be used with eslint v.2.0 and greater  
+
 ## Rules
 Check [feross/standard](https://github.com/feross/standard) for the rules.
 
