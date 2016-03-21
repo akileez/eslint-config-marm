@@ -1,7 +1,6 @@
 # eslint-config-marm
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
+[![schoolmarm-standard-style][marm-image]][marm-url]
 [![Downloads][downloads-image]][downloads-url]
 
 >school·marm `/ˈsko͞olˌmä(r)m/`   
@@ -10,8 +9,10 @@
 Do you remember when you were a child and had to stand in line. Well, schoolmarm is here to enforce alignment 
 but only when you want to.
 
+**Note:** version 0.2 and greater to be used with eslint v.2.0 and greater  
+
 ## Rules
-Check [feross/standard](https://github.com/feross/standard) for the rules.
+Check [feross/standard](https://github.com/feross/standard) for the [rules](https://github.com/feross/standard/blob/master/RULES.md).
 
 marm diverges from Standard in the following ways:   
 
@@ -126,9 +127,7 @@ In general, `\n` ends a statement unless:
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-marm.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/eslint-config-marm
-[travis-image]: https://img.shields.io/travis/akileez/eslint-config-marm.svg?style=flat-square
-[travis-url]: https://travis-ci.org/akileez/eslint-config-marm
-[coveralls-image]: https://img.shields.io/coveralls/akileez/eslint-config-marm.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/akileez/eslint-config-marm?branch=master
+[marm-image]: https://img.shields.io/badge/code%20style-marm-brightgreen.svg?style=flat-square
+[marm-url]: https://github.com/akileez/eslint-config-marm
 [downloads-image]: http://img.shields.io/npm/dm/eslint-config-marm.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/eslint-config-marm
