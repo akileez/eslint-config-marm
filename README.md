@@ -12,7 +12,7 @@ but only when you want to.
 **Note:** version 0.2 and greater to be used with eslint v.2.0 and greater  
 
 ## Rules
-Check [feross/standard](https://github.com/feross/standard) for the rules.
+Check [feross/standard](https://github.com/feross/standard) for the [rules](https://github.com/feross/standard/blob/master/RULES.md).
 
 marm diverges from Standard in the following ways:   
 
